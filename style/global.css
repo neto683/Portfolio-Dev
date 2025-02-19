@@ -27,14 +27,7 @@
   --text-md-pro:400 16px/140% var(--font-family-maven);
   --text-sm-pro:400 14px/140% var(--font-family-maven);
 
-
-
-
-
-
-
-
-
-
-
+}
+body{
+  background-color: black;
 }
