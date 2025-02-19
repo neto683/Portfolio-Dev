@@ -1,0 +1,83 @@
+.info{
+  padding-top:80px;
+}
+.intro{
+  background-image: url(../assets/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.avatar > img{
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  display: flex;
+  justify-items: center;
+  margin: auto;
+  border: 2px solid var(--red);
+  margin-bottom: 56px;
+ 
+}
+.text{
+  text-align: center;
+  p{
+    font: var(--text-sm-pro);
+    color: var(--gray-400);
+  }
+}
+.title{
+  :nth-child(1){
+    font: var(--subtitle);
+    color: var(--gray-500);
+    strong{
+      color: var(--red);
+    } 
+  }
+  :nth-child(2){
+    font: var(--titel-lg);
+    color: var(--gray-600);
+  }
+}
+.tags{
+  margin: 80px auto;
+  display: flex;
+  flex-direction: row;
+  width: 754px;
+  gap: 16px;
+  
+}
+.tag{
+  display: flex;
+  width: 138px;
+  align-items: center;
+ background-color: var(--gray-300);
+ border-radius: 40px;
+ gap:8px;
+ padding-inline: 16px;
+ padding-block: 6px;
+ color: var(--gray-500);
+  
+}
+.setas{
+  margin-top: 99pxw;
+ display: flex;
+ justify-content: center;
+}
+.GitHub{
+color: var(--gray-500);
+}
+.HTML{
+  color: var(--red);
+}
+.CSS{
+  color: var(--blue);
+}
+.Javascript{
+  color: var(--yellow);
+}
+.React{
+  color: var(--blue);
+}
+.Node.js{
+  color:var(--green);
+}
+
