@@ -1,0 +1,59 @@
+.proj{
+  background-color: var(--gray-200);
+ 
+header{
+  padding-bottom: 56px;
+  justify-items: center;
+  align-items: center;
+  p{
+    color: var(--gray-600);
+  }
+  strong{
+    color: var(--red);
+  }
+}
+}
+.grid{
+display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ width: 1040px;
+ height: 584px;
+ margin: 56px auto;
+ 
+}
+.card{
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-300);
+ 
+  position: relative;
+  border-radius: 2ch;
+  img{
+    position: absolute;
+    left: 12px;
+    top: 10px;
+
+    justify-content: center;
+    border-radius: 20px;
+    width: 306px;
+    height: 156px;
+  }
+
+}
+.title{
+  color: var(--gray-600);
+  padding-bottom: 10px;
+}
+.card-text{
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  &:nth-child(2){
+    color: var(--gray-400);
+    padding-inline: 10px;
+  }
+}
+
+.card:hover{
+  border: 1px solid var(--gray-400);
+}

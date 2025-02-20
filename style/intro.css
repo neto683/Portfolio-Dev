@@ -1,5 +1,6 @@
 .info{
   padding-top:80px;
+ 
 }
 .intro{
   background-image: url(../assets/Background_Contacts.png);
@@ -58,7 +59,6 @@
   
 }
 .setas{
-  margin-top: 99pxw;
  display: flex;
  justify-content: center;
 }
@@ -79,5 +79,8 @@ color: var(--gray-500);
 }
 .Node.js{
   color:var(--green);
+}
+.setas{
+  padding-bottom:72px;
 }
 
