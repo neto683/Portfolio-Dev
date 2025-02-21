@@ -18,7 +18,7 @@ display: grid;
  grid-template-columns: repeat(3, 1fr);
  width: 1040px;
  height: 584px;
- margin: 56px auto;
+ margin: 56px auto 0px;
  
 }
 .card{
