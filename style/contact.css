@@ -1,0 +1,52 @@
+.contact{
+
+background-image: url(../assets/Background_Contacts.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 787px;
+justify-items: center;
+padding-top: 128px;
+text-align: center;
+}
+
+.roxo{
+color: var(--purple);
+font: var(--subtitle);
+}
+.title-contact-1{
+  font: var( --titel-md);
+  color: var(--gray-600);
+}
+.title-contact-2{
+  font: var( --text-md-pro);
+  color: var(--gray-400);
+}
+.links{
+  display: flex;
+  flex-direction: column;
+  padding-top:48px ;
+  gap: 16px;
+}
+.itens{
+background-color: var(--gray-300);
+height: 68px;
+width: 400px;
+border-radius: 8px;
+display: flex;
+align-items: center;
+
+padding-inline:20px ;
+justify-content: space-between;
+P{
+  display: flex;
+  font: var(--text-md-pro);
+  color: var(--gray-600);
+  position: relative;
+  right: 120px;
+}
+&:hover{
+ border: 1px solid var(--blue);
+ transition-delay: 150ms;
+}
+}
+

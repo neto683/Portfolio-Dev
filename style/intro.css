@@ -1,9 +1,9 @@
 .info{
-  padding-top:80px;
+  padding-top:100px;
  
 }
 .intro{
-  background-image: url(../assets/Background_Contacts.png);
+  background-image: url(../assets/Background_Intro.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -50,11 +50,12 @@
   display: flex;
   width: 138px;
   align-items: center;
+  font: var(--text-md-pro);
  background-color: var(--gray-300);
  border-radius: 40px;
  gap:8px;
  padding-inline: 16px;
- padding-block: 6px;
+ padding-block: 10px;
  color: var(--gray-500);
   
 }
@@ -62,25 +63,7 @@
  display: flex;
  justify-content: center;
 }
-.GitHub{
-color: var(--gray-500);
-}
-.HTML{
-  color: var(--red);
-}
-.CSS{
-  color: var(--blue);
-}
-.Javascript{
-  color: var(--yellow);
-}
-.React{
-  color: var(--blue);
-}
-.Node.js{
-  color:var(--green);
-}
 .setas{
-  padding-bottom:72px;
+  padding-bottom:142px;
 }
 
