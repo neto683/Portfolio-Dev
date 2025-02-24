@@ -1,5 +1,4 @@
 .contact{
-
 background-image: url(../assets/Background_Contacts.png);
 background-repeat: no-repeat;
 background-size: cover;
@@ -36,6 +35,8 @@ display: flex;
 align-items: center;
 padding-inline:20px ;
 justify-content: space-between;
+border: 1px solid transparent;
+color: var(--gray-400);
 P{
   font: var(--text-md-pro);
   color: var(--gray-600);
@@ -44,7 +45,8 @@ P{
 }
 &:hover{
  border: 1px solid var(--blue);
- transition-delay: 150ms;
+ transition: all 600ms ease-in-out;
+ color: var(--blue);
 }
 }
 
