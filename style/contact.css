@@ -34,11 +34,9 @@ width: 400px;
 border-radius: 8px;
 display: flex;
 align-items: center;
-
 padding-inline:20px ;
 justify-content: space-between;
 P{
-  display: flex;
   font: var(--text-md-pro);
   color: var(--gray-600);
   position: relative;
